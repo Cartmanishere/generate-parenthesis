@@ -3,6 +3,11 @@ import sys
 
 class Solution:
     def generate_parenthesis(self, num):
+        """
+        Returns a list of valid parenthesis strings of input length
+        :param num: length of each string
+        :return arr: resultant array of strings
+        """
         if num <= 0:
             return []
 
